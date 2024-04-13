@@ -11,6 +11,7 @@ import time
 
 from utils import *
 openai.api_key = openai_api_key
+openai.base_url = openai_base_url
 
 def ChatGPT_request(prompt): 
   """
